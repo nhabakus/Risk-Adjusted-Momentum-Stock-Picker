@@ -6,6 +6,7 @@ converts daily prices into weekly prices, calculates weekly returns, and saves/l
 CSV files for the project.
 """
 
+from io import StringIO
 import requests
 import os
 import pandas as pd
@@ -32,7 +33,7 @@ def get_sp500_tickers(limit=500):
         response = requests.get(url, headers=headers)
         response.raise_for_status()
 
-        sp500_table = pd.read_html(response.text)[0]
+        sp500_table = pd.read_html(StringIO(response.text))
 
         tickers = sp500_table["Symbol"].tolist()
         tickers = [ticker.replace(".", "-") for ticker in tickers]
@@ -59,7 +60,7 @@ def get_sp500_changes():
         response = requests.get(url, headers=headers)
         response.raise_for_status()
 
-        tables = pd.read_html(response.text)
+        tables = pd.read_html(StringIO(response.text))
 
         changes_table = None
 
