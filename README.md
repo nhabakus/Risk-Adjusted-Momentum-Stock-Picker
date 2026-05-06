@@ -189,6 +189,7 @@ This will download raw data and recompute features.
 ### Contributions
 
 Maxim: Portfolio and stock building, creating csvs and loading data, neural network model, troubleshooting
+
 Nick: Test files, feature calculation, backtests model, readME, troubleshooting
 
 ### Conclusion
