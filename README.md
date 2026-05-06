@@ -181,9 +181,10 @@ Run all cells from top to bottom.
 
 ### Optional: Rebuild dataset
 
-In the notebook, set:
-
+In the notebook, in the second cell, set:
+```
 REBUILD_DATA = True
+```
 
 This will download raw data and recompute features.
 
