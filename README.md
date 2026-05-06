@@ -163,7 +163,7 @@ momentum_stock_picker/
 ## How to Run
 
 ### 1. Install dependencies
-pip install pandas numpy tensorflow scikit-learn matplotlib pytest
+pip install pandas numpy tensorflow scikit-learn matplotlib pytest yfinance
 
 
 ---
