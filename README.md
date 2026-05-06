@@ -188,6 +188,9 @@ This will download raw data and recompute features.
 
 ### Contributions
 
+Maxim: Portfolio and stock building, creating csvs and loading data, neural network model, troubleshooting
+Nick: Test files, feature calculation, backtests model, readME, troubleshooting
+
 ### Conclusion
 
 This project demonstrates that combining momentum signals with machine learning can create a systematic stock selection strategy. While results are promising, further improvements could include additional features, more advanced models, and realistic trading constraints.
