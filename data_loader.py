@@ -33,7 +33,7 @@ def get_sp500_tickers(limit=500):
         response = requests.get(url, headers=headers)
         response.raise_for_status()
 
-        sp500_table = pd.read_html(StringIO(response.text))
+        sp500_table = pd.read_html(StringIO(response.text))[0]
 
         tickers = sp500_table["Symbol"].tolist()
         tickers = [ticker.replace(".", "-") for ticker in tickers]
