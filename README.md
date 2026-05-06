@@ -126,7 +126,7 @@ Results may vary slightly due to stochastic model training.
 ---
 
 ## Project Structure
-
+```
 momentum_stock_picker/
 │
 ├── data_loader.py
@@ -158,7 +158,7 @@ momentum_stock_picker/
 │
 └── README.md
 
-
+```
 ---
 
 ## How to Run
