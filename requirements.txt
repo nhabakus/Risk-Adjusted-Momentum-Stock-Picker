@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+yfinance
+tensorflow
+pytest
+scikit-learn
+jupyter
+lxml
+html5lib
+beautifulsoup4
