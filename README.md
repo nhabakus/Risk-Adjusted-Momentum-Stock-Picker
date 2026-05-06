@@ -164,8 +164,7 @@ momentum_stock_picker/
 ## How to Run
 
 ### 1. Install dependencies
-pip install pandas numpy matplotlib yfinance tensorflow pytest scikit-learn jupyter lxml html5lib beautifulsoup4
-
+python -m pip install -r requirements.txt
 
 ---
 
